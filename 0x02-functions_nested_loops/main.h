@@ -1,5 +1,7 @@
-#ifndef main_h
-#define main_h
+#include <stdio.h>
+#include <unistd.h>
+#ifndef MAIN_H
+#define MAIN_H
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -9,7 +11,7 @@ int print_sign(int n);
 int _abs(int);
 int print_last_digit(int);
 void jack_bauer(void);
-void times_table(void);
+void print_times_table(int n);
 int add(int, int);
 void print_to_98(int n);
-#endif
+#endif 
