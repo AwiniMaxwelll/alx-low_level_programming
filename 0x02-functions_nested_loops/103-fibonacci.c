@@ -21,6 +21,6 @@ fib1 = fib2;
 fib2 = fib3;
 }
 printf("%d", sum_even);
-printf("\n")
+printf("\n");
 return (0);
 }
