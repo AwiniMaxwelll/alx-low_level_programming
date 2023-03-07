@@ -5,24 +5,28 @@
  */
 int main(void)
 {
-	int var1, var2;
+int i, j, k;
 
-	for (var1 = '0'; var1 < '9'; var1++)
-	{
-	for (var2 = var1 + 1; var2 <= '9'; var2++)
-	{
-	if (var2 != var1)
-	{
-	putchar(var1);
-	putchar(var2);
-	if (var1 != '8' && var2 != '9')
-	continue;
-	putchar(',');
-	putchar(' ');
-	}
-	}
-	}
-	putchar('\n');
-	return (0);
+for (i = 0; i < 100; i++)
+{
+j = i / 10;
+k = i % 10;
+
+if (j < k)
+{
+if (i > 0)
+{
+putchar(',');
+putchar(' ');
+}
+
+putchar(j + '0');
+putchar(k + '0');
+}
+}
+
+putchar('\n');
+
+return (0);
 }
 
