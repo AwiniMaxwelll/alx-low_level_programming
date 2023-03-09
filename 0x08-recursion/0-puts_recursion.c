@@ -11,6 +11,6 @@ if (*s == '\0')
 _putchar('\n');
 return;
 }
-_putchar(*s)
-_putchar(s + 1)
+_putchar(*s);
+_putchar(s + 1);
 }
