@@ -27,6 +27,6 @@ return (1);
 }
 total += atoi(argv[i]);
 }
-printf("%d\n", sum);
+printf("%d\n", total);
 return (0);
 }
