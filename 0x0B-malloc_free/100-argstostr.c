@@ -22,7 +22,7 @@ len++;
 total_len += len + 1;
 len = 0;
 }
-str = malloc(total_len *sizeof(char));
+str = malloc(total_len *sizeof(char) + 1);
 if (str == NULL)
 return (NULL);
 
